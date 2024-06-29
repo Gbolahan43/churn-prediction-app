@@ -91,7 +91,7 @@ def prediction():
     if predict_ == 0:
         result = 'likely to continue patronizing your business.'
     else:
-        result = 'likely to stop patronizing your business.'
+        result = 'likely to :red[stop] patronizing your business.'
     return result
 
 # Prediction button
