@@ -8,7 +8,7 @@ Created on Thu Jun 27 22:26:17 2024
 import pandas as pd
 import streamlit as st
 import pickle
-import xgboost
+# import xgboost
 
 filename = 'finalxgb_model.sav'
 model = pickle.load(open(filename, 'rb'))
