@@ -2,13 +2,13 @@
 """
 Created on Thu Jun 27 22:26:17 2024
 
-@author: Fatima
+@author: Excellus
 """
 
 import pandas as pd
 import streamlit as st
 import pickle
-#import xgboost as xgb
+import xgboost as xgb
 
 filename = 'finalxgb_model.sav'
 model = pickle.load(open(filename, 'rb'))
